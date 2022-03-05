@@ -14,6 +14,11 @@
 		60E0AE1727D317C600126FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E0AE1627D317C600126FE9 /* Assets.xcassets */; };
 		60E0AE1A27D317C600126FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E0AE1827D317C600126FE9 /* LaunchScreen.storyboard */; };
 		60E0AE1D27D317C600126FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AE1C27D317C600126FE9 /* main.m */; };
+		60E0AE2527D3180000126FE9 /* NSButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AE2427D3180000126FE9 /* NSButtonViewController.m */; };
+		60E0AE2827D319D500126FE9 /* NSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AE2727D319D500126FE9 /* NSTimerViewController.m */; };
+		60E0AE2B27D31FFC00126FE9 /* NSTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AE2A27D31FFC00126FE9 /* NSTestButton.m */; };
+		60E0AE2E27D3237800126FE9 /* TimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AE2D27D3237800126FE9 /* TimerProxy.m */; };
+		60E0AE7E27D32AD700126FE9 /* DelegateMethodProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E0AE7D27D32AD700126FE9 /* DelegateMethodProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,16 @@
 		60E0AE1927D317C600126FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60E0AE1B27D317C600126FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60E0AE1C27D317C600126FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E0AE2327D3180000126FE9 /* NSButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSButtonViewController.h; sourceTree = "<group>"; };
+		60E0AE2427D3180000126FE9 /* NSButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSButtonViewController.m; sourceTree = "<group>"; };
+		60E0AE2627D319D500126FE9 /* NSTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTimerViewController.h; sourceTree = "<group>"; };
+		60E0AE2727D319D500126FE9 /* NSTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTimerViewController.m; sourceTree = "<group>"; };
+		60E0AE2927D31FFC00126FE9 /* NSTestButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTestButton.h; sourceTree = "<group>"; };
+		60E0AE2A27D31FFC00126FE9 /* NSTestButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTestButton.m; sourceTree = "<group>"; };
+		60E0AE2C27D3237800126FE9 /* TimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerProxy.h; sourceTree = "<group>"; };
+		60E0AE2D27D3237800126FE9 /* TimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerProxy.m; sourceTree = "<group>"; };
+		60E0AE7C27D32AD600126FE9 /* DelegateMethodProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateMethodProxy.h; sourceTree = "<group>"; };
+		60E0AE7D27D32AD700126FE9 /* DelegateMethodProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateMethodProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +87,16 @@
 				60E0AE1827D317C600126FE9 /* LaunchScreen.storyboard */,
 				60E0AE1B27D317C600126FE9 /* Info.plist */,
 				60E0AE1C27D317C600126FE9 /* main.m */,
+				60E0AE2327D3180000126FE9 /* NSButtonViewController.h */,
+				60E0AE2427D3180000126FE9 /* NSButtonViewController.m */,
+				60E0AE2627D319D500126FE9 /* NSTimerViewController.h */,
+				60E0AE2727D319D500126FE9 /* NSTimerViewController.m */,
+				60E0AE2927D31FFC00126FE9 /* NSTestButton.h */,
+				60E0AE2A27D31FFC00126FE9 /* NSTestButton.m */,
+				60E0AE2C27D3237800126FE9 /* TimerProxy.h */,
+				60E0AE2D27D3237800126FE9 /* TimerProxy.m */,
+				60E0AE7C27D32AD600126FE9 /* DelegateMethodProxy.h */,
+				60E0AE7D27D32AD700126FE9 /* DelegateMethodProxy.m */,
 			);
 			path = NSTimerProxyDemo;
 			sourceTree = "<group>";
@@ -148,7 +173,12 @@
 			files = (
 				60E0AE1227D317C500126FE9 /* ViewController.m in Sources */,
 				60E0AE0C27D317C500126FE9 /* AppDelegate.m in Sources */,
+				60E0AE2E27D3237800126FE9 /* TimerProxy.m in Sources */,
+				60E0AE2B27D31FFC00126FE9 /* NSTestButton.m in Sources */,
+				60E0AE7E27D32AD700126FE9 /* DelegateMethodProxy.m in Sources */,
 				60E0AE1D27D317C600126FE9 /* main.m in Sources */,
+				60E0AE2827D319D500126FE9 /* NSTimerViewController.m in Sources */,
+				60E0AE2527D3180000126FE9 /* NSButtonViewController.m in Sources */,
 				60E0AE0F27D317C500126FE9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
